@@ -1,13 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.inthebacklog</groupId>
+    <groupId>io.github.twelvep</groupId>
     <artifactId>javampd</artifactId>
     <packaging>jar</packaging>
-    <version>7.3.1</version>
+    <version>7.3.2</version>
     <name>JavaMPD</name>
     <description>A Java API for controlling the Music Player Daemon (MPD)</description>
-    <url>https://github.com/finnyb/javampd/</url>
+    <url>https://github.com/TwelveP/javampd/</url>
     <developers>
+        <developer>
+            <id>benjamin</id>
+            <name>Benjamin</name>
+            <email>got12g@gmail.com</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>America/Santiago</timezone>
+        </developer>
         <developer>
             <id>bill</id>
             <name>Bill</name>
@@ -28,13 +37,13 @@
     </licenses>
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/finnyb/javampd/issues</url>
+        <url>https://github.com/TwelveP/javampd/issues</url>
     </issueManagement>
     <scm>
-        <connection>scm:git:https://github.com/finnyb/javampd.git</connection>
-        <developerConnection>scm:git:https://github.com/finnyb/javampd.git</developerConnection>
-        <url>https://github.com/finnyb/javampd</url>
-        <tag>HEAD</tag>
+        <connection>scm:git:https://github.com/TwelveP/javampd.git</connection>
+        <developerConnection>scm:git:https://github.com/TwelveP/javampd.git</developerConnection>
+        <url>https://github.com/TwelveP/javampd</url>
+        <tag>v7.3.1</tag>
     </scm>
     <distributionManagement>
         <site>
@@ -58,8 +67,8 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <junit.jupiter.version>5.10.2</junit.jupiter.version>
         <mockito.version>5.11.0</mockito.version>
-        <sonar.projectKey>finnyb_javampd</sonar.projectKey>
-        <sonar.organization>finnyb</sonar.organization>
+        <sonar.projectKey>TwelveP_javampd</sonar.projectKey>
+        <sonar.organization>12p</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
     <build>
